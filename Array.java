@@ -7,7 +7,7 @@ public class Array {
 		System.out.println("enter the no of elements");
 		int n=sc.nextInt();
 		int[] array=new int[n];
-		System.out.println("enter the elements");
+		System.out.println("enter the"+n+"elements");
 		for(int i=0;i<array.length;i++){
 			array[i]=sc.nextInt();
 		}
